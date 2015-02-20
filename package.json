@@ -1,7 +1,7 @@
 {
-  "name": "impensa",
+  "name": "impensa2",
   "version": "1.0.0",
-  "description": "impensa: An Ionic project",
+  "description": "impensa2: An Ionic project",
   "dependencies": {
     "gulp": "^3.5.6",
     "gulp-sass": "^0.7.1",
