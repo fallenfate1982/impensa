@@ -1,6 +1,7 @@
 # README #
 
 https://www.concur.com.au/features/mobile?icid=en_au_pepexp_mobile
+http://wijmo.com/expense-tracker-sample-creating-the-app/
 
 ### What is this repository for? ###
 
