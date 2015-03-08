@@ -1,0 +1,15 @@
+<ion-view title="Take a Snap">
+    <ion-content class="has-header">
+        <button ng-click="getPhoto()" class="button button-block button-primary">Scan Receipt</button>
+        <img ng-src="{{lastPhoto}}" style="max-width: 100%">
+    </ion-content>
+    <ion-footer-bar align-title="left" class="bar-positive">
+	  <div class="buttons">
+	    <button class="button" ng-click="extractData()">Extract Data</button>
+	  </div>
+	  <h1 class="title"></h1>
+	  <div class="buttons" ng-click="cancel()">
+	    <button class="button">Cancel</button>
+	  </div>
+	</ion-footer-bar>
+</ion-view>
