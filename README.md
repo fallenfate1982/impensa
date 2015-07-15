@@ -5,25 +5,12 @@
 
 * expense management
 
-### What to do for this version ###
+## Application Details
 
-* Login screen.
-* Get Auth token from server on initial login.
-* store token in local storage.
-* Use Passport on the server side to authenticate.Nodejs.
-* Use OAuth2.
-* Authenticate for every post/get request.
-* Set token expiration for 2 hours.
-* Save username and password encrypted locally.
+1) Application uses Ionic and Cordova(Phonegap) to create a packaged aplication for both android and ios.
+2) Using AngualrJs, css and javascript to create screens for user input.
+3) Using cordova to take a photo and store it in local storage.
 
-### Tasks ###
+## Todo
 
-* Setup passport nodejs - pradeep
-* create ionic login page, save username and password encrypted locally - yashit
-* Sign Up form: ??
-* logo
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+1) Extract details of the bill using Tesseract OCR and save it to DB.(Tesseract seems to extract data but need to train the algorithm with different fonts  to retrieve enough information).
